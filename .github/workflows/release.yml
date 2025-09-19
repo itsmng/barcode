@@ -29,7 +29,7 @@ jobs:
       - name: Build project
         run: |
           cd /home/runner/work/barcode/
-          rm -r barcode/.git* barcode/tools barcode/README.md barcode/composer.* barcode/AUTHORS.txt
+          rm -r barcode/.git* barcode/tools barcode/patch barcode/README.md barcode/composer.* barcode/AUTHORS.txt
           tar -zcvf barcode-${{ github.ref_name }}.tgz barcode
 
       - name: Upload release
