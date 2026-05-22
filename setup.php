@@ -97,7 +97,7 @@ function plugin_version_barcode() {
       'license'        => 'AGPLv3+',
       'author'         => '<a href="mailto:d.durieux@siprossii.com">David DURIEUX</a> &
                            Jean Marc GRISARD & Vincent MAZZONI',
-      'homepage'       => 'https://github.com/pluginsGLPI/barcode',
+      'homepage'       => 'https://github.com/itsmng/barcode',
       'requirements'   => [
          'glpi' => [
             'min' => PLUGIN_BARCODE_MIN_GLPI,
