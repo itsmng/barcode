@@ -1,7 +1,7 @@
 #!/usr/bin/make -f
 
 # Variables
-NAME = itsmng
+NAME = barcode
 VERSION = CHANGEVERSION
 
 %:
